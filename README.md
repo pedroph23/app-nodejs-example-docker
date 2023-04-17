@@ -33,7 +33,7 @@ ENTRYPOINT npm start
 
 ## 2 - Create Image
 
-- Model command example: ```docker build -t **<image-name>** **<path-to-dockerfile>**```
+- Model command example: ```docker build -t <image-name> <path-to-dockerfile>```
 
 - Example command: 
 ```bash
