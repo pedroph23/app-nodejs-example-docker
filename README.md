@@ -33,7 +33,7 @@ ENTRYPOINT npm start
 
 ## 2 - Create Image
 
-- Model command example: ```docker build -t <image-name> <path-to-dockerfile>```
+-  Here's an example of the command to create Docker image: ```docker build -t <image-name> <path-to-dockerfile>```
 
 - Example command: 
 ```bash
@@ -44,13 +44,12 @@ docker build -t image_name:version .
 
 ## 3 - Publish Your Own Docker Image
 
-Before continues, you need create account on [Docker Hub]("https://hub.docker.com")!
+Before you continues, you need create account on [Docker Hub]("https://hub.docker.com")!
 
-- You need to do Docker Hub login with Docker CLI: ``` docker login -u username ```. The next step you will recive password field to fill.
+- To log in to Docker Hub with Docker CLI, use the following command: ```docker login -u username```. You will then be prompted to enter your password.
 
-- Model publish command example: ```docker push <username_docker_hub>/<image_name>:<version>```
+- Here's an example of the command to publish your Docker image: ```docker push <username_docker_hub>/<image_name>:<version>```
 
-- Example command: 
 ```bash
 docker push username/image-name:1.0
 ```
