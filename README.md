@@ -1,7 +1,7 @@
 # How Create Docker Image and Publish in Docker Hub
 Hello everyone ! <br>
 
-This is a tuturial for create a Docker image and publish into Docker Hub. Check out setps below !
+This is a tutorial on how to create a Docker image and publish it to Docker Hub. Please check out the steps below !
 
 ## 1 - Create Dockerfile 
 
@@ -46,7 +46,7 @@ docker build -t image_name:version .
 
 Before continues, you need create account on [Docker Hub]("https://hub.docker.com")!
 
-- You need do Docker Hub login with Docker CLI: ``` docker login -u username ```. The nex step you will recive password field to fill.
+- You need to do Docker Hub login with Docker CLI: ``` docker login -u username ```. The next step you will recive password field to fill.
 
 - Model publish command example: ```docker push <username_docker_hub>/<image_name>:<version>```
 
